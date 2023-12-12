@@ -21,12 +21,14 @@ body, html{
 }
 
 .left {
-  float: left;
+  position: absolute;
+  left: 700px;
   width: 100px;
   height: 300px;
+  text-align: left, bottom;
   border: 3px solid #73AD21;
   padding: 10px;
-  padding-left: 500px;
+  
 }
 
 #button-holder {
@@ -45,11 +47,12 @@ button {
 }
 
 .right {
-  float: right;
+  position: absolute;
+  right: 400px;
   width: 500px;
   border: 3px solid #73AD21;
   padding: 10px;
-  padding-right: 200px;
+  
 }
 
 #sketch-holder {
