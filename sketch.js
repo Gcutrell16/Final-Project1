@@ -103,7 +103,7 @@ function draw() {
 
 function drawSBP () {
   let randSBP = int(random(SBPArray.length));
-  image(SBPArray[randSBP], 200,300, 547, 712);
+  image(SBPArray[randSBP], 200,300, 400, 523);
 }
 
 //negative numbers and a left leaning number range
