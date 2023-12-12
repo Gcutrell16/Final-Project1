@@ -103,11 +103,11 @@ function draw() {
 
 function drawSBP () {
   let randSBP = int(random(SBPArray.length));
-  image(SBPArray[randSBP], 200,300, 400, 523);
+  image(SBPArray[randSBP], 200,300, 525, 687);
 }
 
 //negative numbers and a left leaning number range
-function drawPaper () {
+function drawPaper(){
   let randPaper = int(random(paperArray.length));
   //image(paperArray[randPaper], int(random(-50,350)),int(random(-50,350)), 680, 820);
     image(paperArray[randPaper], random(10,818), random(10,1074), 250, 301);

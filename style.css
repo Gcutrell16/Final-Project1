@@ -1,14 +1,15 @@
 
 
 body, html{
-  height: 100%;
+  margin:0;
+  padding:0;
 }
 
-.bg {
+html {
   background-image: url('Background/Background 2.png');
-  height: 100%;
+  margin: auto;
   background-size:cover;
-  background-position: center;
+  background-position: center,contain;
   background-repeat: no-repeat;
 }
 .banner {
@@ -22,10 +23,9 @@ body, html{
 
 .left {
   position: absolute;
-  left: 700px;
+  left: 300px;
   width: 100px;
   height: 300px;
-  text-align: left, bottom;
   border: 3px solid #73AD21;
   padding: 10px;
   
@@ -33,7 +33,7 @@ body, html{
 
 #button-holder {
   border: 3px solid black;
-  padding-top: 10px;
+  padding-top: -10px;
   width: 200px;
   height: 500px;
   
