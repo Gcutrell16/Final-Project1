@@ -110,23 +110,23 @@ function drawSBP () {
 function drawPaper(){
   let randPaper = int(random(paperArray.length));
   //image(paperArray[randPaper], int(random(-50,350)),int(random(-50,350)), 680, 820);
-    image(paperArray[randPaper], random(10,818), random(10,1074), 250, 301);
+    image(paperArray[randPaper], random(1,500), random(1,560), 250, 301);
 
 }
 
 function drawSticker () {
   let randSticker = int(random(stickerArray.length));
-  image(stickerArray[randSticker],random(10,818), random(10,1074), 130, 128);
+  image(stickerArray[randSticker],random(1,420), random(1,560), 130, 128);
 }
 
 function drawMS () {
   let randMS = int(random(MSArray.length));
-  image(MSArray[randMS], random(10,818), random(10,1074), 180, 162);
+  image(MSArray[randMS], random(1,420), random(1,560), 180, 162);
 }
 
 function drawLD () {
   let randLD = int(random(LDArray.length));
-  image(LDArray[randLD], random(10,818), random(10,1074), 300, 310);
+  image(LDArray[randLD], random(1,420), random(1,560), 300, 310);
 }
 
 function clearCanvas () {
@@ -134,6 +134,6 @@ function clearCanvas () {
 }
 
 function saveImage() {
-  save("Picture.png");
+  save("My Collage.jpg");
 }
 

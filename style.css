@@ -19,6 +19,8 @@ html {
   text-align: CENTER;
   margin: center;
   border: 1px solid green;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 .left {
@@ -48,17 +50,18 @@ button {
 
 .right {
   position: absolute;
-  right: 400px;
-  width: 500px;
+  right: 300px;
+  width: 430px;
+  height: 580px;
   border: 3px solid #73AD21;
-  padding: 10px;
+  padding: 0px;
   
 }
 
 #sketch-holder {
   border: 1px solid blue;
-  width: 600px;
-  height: 800px;
+  width: 430px;
+  height: 580px;
 
 }
 canvas{
