@@ -82,7 +82,7 @@ function setup() {
   button5.mousePressed(drawLD);
 
   
-  var button6 = createButton('clear canvas');
+  var button6 = createImg('buttons/Clear Canvas button.png');
   button6.size(130,130);
   button6.parent('button-holder');
   button6.mousePressed(clearCanvas);
