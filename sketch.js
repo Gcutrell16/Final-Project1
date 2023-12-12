@@ -110,23 +110,23 @@ function drawSBP () {
 function drawPaper () {
   let randPaper = int(random(paperArray.length));
   //image(paperArray[randPaper], int(random(-50,350)),int(random(-50,350)), 680, 820);
-    image(paperArray[randPaper], random(width), random(height), 250, 301);
+    image(paperArray[randPaper], random(10,818), random(10,1074), 250, 301);
 
 }
 
 function drawSticker () {
   let randSticker = int(random(stickerArray.length));
-  image(stickerArray[randSticker],random(width), random(height), 130, 128);
+  image(stickerArray[randSticker],random(10,818), random(10,1074), 130, 128);
 }
 
 function drawMS () {
   let randMS = int(random(MSArray.length));
-  image(MSArray[randMS], random(width), random(height), 180, 162);
+  image(MSArray[randMS], random(10,818), random(10,1074), 180, 162);
 }
 
 function drawLD () {
   let randLD = int(random(LDArray.length));
-  image(LDArray[randLD], random(width), random(height), 300, 310);
+  image(LDArray[randLD], random(10,818), random(10,1074), 300, 310);
 }
 
 function clearCanvas () {
