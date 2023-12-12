@@ -5,6 +5,10 @@ body, html{
   padding:0;
 }
 
+h1 {
+color: aliceblue;
+
+}
 html {
   background-image: url('Background/Background 2.png');
   margin: auto;
@@ -26,7 +30,7 @@ html {
 .left {
   position: absolute;
   left: 300px;
-  width: 100px;
+  width: 250px;
   height: 300px;
   border: 3px solid #73AD21;
   padding: 10px;
