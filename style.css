@@ -37,7 +37,6 @@ html {
 }
 
 #button-holder {
-  border: 3px solid black;
   padding-top: -10px;
   width: 275px;
   height: 500px;
@@ -56,14 +55,12 @@ button {
   right: 325px;
   width: 430px;
   height: 580px;
-  border: 3px solid #73AD21;
   padding: 0px;
   padding-top: 50px;
   
 }
 
 #sketch-holder {
-  border: 1px solid blue;
   width: 430px;
   height: 580px;
 
