@@ -50,7 +50,7 @@ function setup() {
   imageMode(CENTER);
   
   
- var canvas = createCanvas(640, 838);
+ var canvas = createCanvas(828, 1084);
   canvas.parent('sketch-holder');
   
   
@@ -103,7 +103,7 @@ function draw() {
 
 function drawSBP () {
   let randSBP = int(random(SBPArray.length));
-  image(SBPArray[randSBP], 320,424, 547, 712);
+  image(SBPArray[randSBP], 200,300, 547, 712);
 }
 
 //negative numbers and a left leaning number range
@@ -126,7 +126,7 @@ function drawMS () {
 
 function drawLD () {
   let randLD = int(random(LDArray.length));
-  image(LDArray[randLD], random(width), random(height), 640, 660);
+  image(LDArray[randLD], random(width), random(height), 300, 310);
 }
 
 function clearCanvas () {
